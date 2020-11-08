@@ -1,6 +1,6 @@
-#define EXP 2.7182
+#define e 2.7182
 
-    double Pow(double x , int y)
+    double Power(double x , int y)
      {
         //reason why I use ans and p instead of y and x is because I remember that C goes to the adress of x and y
         //thus changing it's content and corrupting future power calculations 
@@ -39,7 +39,7 @@
         return 0;
     }
 
-    double Exp(int x)
+    double Exponent(int x)
         {
-            return Pow(EXP,x);
+            return Power(e,x);
         }
