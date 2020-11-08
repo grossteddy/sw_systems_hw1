@@ -5,5 +5,5 @@
     double mul(double x , int y);
     double div(double x, int y);
 
-    double Exp(int x);
-    double Pow(double x , int y);
+    double Exponent(int x);
+    double Power(double x , int y);
